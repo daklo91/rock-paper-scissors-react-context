@@ -1,0 +1,38 @@
+.footer {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+.button {
+  background: transparent;
+  width: 128px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  color: #fff;
+}
+
+.button:hover {
+  background: linear-gradient(0deg, #f3f3f3 0%, #ffffff 100%);
+  color: #3b4262;
+  cursor: pointer;
+}
+
+.button:active {
+  background: linear-gradient(0deg, #999999 0%, #a5a5a5 100%);
+}
+
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
+    bottom: 56px;
+    right: auto;
+    display: flex;
+    justify-content: center;
+  }
+}

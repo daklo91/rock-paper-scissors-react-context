@@ -1,7 +1,13 @@
+import { Fragment } from "react";
 import "./App.css";
+import FooterComponent from "./components/layout/FooterComponent";
 
 function App() {
-  return <div>yo</div>;
+  return (
+    <Fragment>
+      <FooterComponent />
+    </Fragment>
+  );
 }
 
 export default App;
