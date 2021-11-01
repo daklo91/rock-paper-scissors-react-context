@@ -1,11 +1,11 @@
 import { Fragment } from "react";
 import "./App.css";
-import FooterComponent from "./components/layout/Footer";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
     <Fragment>
-      <FooterComponent />
+      <Footer />
     </Fragment>
   );
 }

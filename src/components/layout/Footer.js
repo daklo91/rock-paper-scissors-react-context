@@ -1,6 +1,6 @@
 import classes from "./Footer.module.css";
 
-function FooterComponent() {
+function Footer() {
   return (
     <footer className={classes.footer}>
       <button className={classes.button}>RULES</button>
@@ -8,4 +8,4 @@ function FooterComponent() {
   );
 }
 
-export default FooterComponent;
+export default Footer;
